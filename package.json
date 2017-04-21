@@ -1,0 +1,30 @@
+{
+  "name": "nedb-mongodb",
+  "version": "0.0.3",
+  "author": {
+    "name": "berew"
+  },
+  "description": "Import nedb database to mongodb",
+  "keywords": [
+    "database",
+    "connector",
+    "nedb",
+    "mongodb"
+  ],
+  "homepage": "https://github.com/b3rew/nedb-mongodb.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:b3rew/nedb-mongodb.git"
+  },
+  "bin": {
+    "nedb-mongodb": "index.js"
+  },
+  "dependencies": {
+    "nedb": "latest",
+    "mongodb": "latest",
+    "commander": "~1.1.1",
+    "async": "~0.2.8"
+  },
+  "main": "index",
+  "licence": "MIT"
+}
